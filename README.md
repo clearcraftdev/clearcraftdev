@@ -4,13 +4,48 @@
   <img alt="Kamil Furtak — Senior Angular Engineer. Angular, TypeScript and geospatial UI." src="assets/profile-banner-light.svg" width="1440">
 </picture>
 
-**Senior Angular Engineer · UI modernization · Reusable libraries · Geospatial interfaces**
+**Senior Angular Engineer · 13 years in enterprise web development · GIS & interactive maps · UI modernization · Reusable libraries**
 
-I build Angular interfaces for complex workflows and interactive maps. My focus is preserving user workflows during UI changes, designing reusable component APIs, and making state, lifecycle and integration behavior testable.
+I build Angular frontends for complex, domain-heavy products: GIS and map-based applications, document management and public-sector systems. My focus is preserving user workflows during UI changes, designing reusable component APIs, and making state, lifecycle and integration behavior testable. I also maintain [ng-openlayers](https://github.com/kamilfurtak/ng-openlayers), an Angular library for OpenLayers maps.
 
 **Core toolkit:** Angular, TypeScript, RxJS, Nx and OpenLayers.
 
-[Portfolio & demos](https://furtak.dev/) · [Engineering decisions & review guide](engineering-notes.md) · [Work with me & CV](https://furtak.dev/hire-me/)
+[Portfolio & demos](https://furtak.dev/) · [Engineering decisions & review guide](engineering-notes.md) · [Work with me](https://furtak.dev/hire-me/)
+
+## Experience
+
+**13 years** of building enterprise web applications, **9+ years** with Angular — from jQuery and Knockout to Nx monorepos and signals.
+
+#### 2022 – present · Senior Angular Engineer / Frontend Architecture
+
+Angular frontend architecture for GIS, geodesy and cartography, document-management and public-sector systems.
+
+- Nx monorepos, shared Angular libraries and reusable UI components for domain-heavy workflows.
+- Migration of legacy Kendo/jQuery portals to Angular, with new interfaces working alongside established workflows.
+- OpenLayers map features: spatial object interaction, sketching and editing.
+- Nx generators and development automation; code review, integration debugging and automated tests.
+
+#### 2020 – 2022 · Senior Angular Frontend Developer
+
+Angular SPAs with modular routing, shared components and typed REST integrations. Improved structure and performance with lazy loading, AOT builds and change-detection strategies. Kendo UI and Angular Material forms with Jasmine, Karma and Cypress regression testing.
+
+#### 2017 – 2019 · Angular Frontend Developer
+
+Reusable components, services, routing and route guards for business and geospatial workflows. Code reviews, CI/CD and automated testing for maintainable, reliable releases.
+
+#### 2013 – 2016 · Full-stack JavaScript Developer
+
+JavaScript, jQuery, Knockout and Kendo UI on PHP/Symfony and Java backends with REST APIs and Oracle SQL.
+
+## Skills
+
+| Area | Skills |
+| --- | --- |
+| **Angular & TypeScript** | Angular (signals, RxJS), reusable component APIs and libraries, lazy loading, change-detection strategies, Kendo UI, PrimeNG, Angular Material, Formly |
+| **GIS & web mapping** | OpenLayers; OSM, XYZ, WMS, WMTS, ArcGIS and GeoJSON sources; map projections and coordinate transformation (Proj4); drawing, editing, snapping, selection and measurement |
+| **Architecture & delivery** | Nx monorepos and generators, incremental UI modernization, CI/CD, Git, Docker, Linux, AI-assisted workflows (MCP) |
+| **Testing & quality** | Jasmine, Karma, Cypress, Playwright, axe accessibility checks, package-consumer validation, code review |
+| **Backend & integration** | REST, OpenAPI, Java/Spring, C#/.NET, NestJS/Node.js, PHP/Symfony, SAML, SOAP/WSDL, SQL |
 
 ## Selected engineering work
 
@@ -51,4 +86,4 @@ I keep feature state separate from rendering, define resource ownership, and tes
 
 I use AI tools to support implementation; design decisions, source review and verification remain my responsibility.
 
-For Angular application, component-library or geospatial UI work, [get in touch on LinkedIn](https://linkedin.com/in/kamilfurtak).
+Building a product with a complex Angular frontend or interactive maps? [Email me](mailto:kamil@furtak.dev) or [connect on LinkedIn](https://linkedin.com/in/kamilfurtak).
