@@ -4,21 +4,41 @@
   <img alt="Kamil Furtak — Senior Angular Engineer. Angular, TypeScript and geospatial UI." src="assets/profile-banner-light.svg" width="1440">
 </picture>
 
-**Senior Angular Engineer · 13 years in enterprise web development · GIS & interactive maps · UI modernization · Reusable libraries**
+**Senior Angular Engineer · 13 years in enterprise web development · advanced interfaces & GIS · maintainer of ng-openlayers**
 
-I build Angular frontends for complex, domain-heavy products: GIS and map-based applications, document management and public-sector systems. My focus is preserving user workflows during UI changes, designing reusable component APIs, and making state, lifecycle and integration behavior testable. I also maintain [ng-openlayers](https://github.com/kamilfurtak/ng-openlayers), an Angular library for OpenLayers maps with 17 releases across Angular 17–22.
+I design and build advanced Angular interfaces — data-heavy workbenches, editors and map-based tools — and the reusable libraries behind them. Most of that work happens in domain-heavy products: GIS and cartography, document management and public-sector systems. In the open, I maintain [ng-openlayers](https://github.com/kamilfurtak/ng-openlayers), an Angular library for OpenLayers with 17 releases across Angular 17–22.
 
 | At a glance | |
 | --- | --- |
 | **Role** | Senior Angular Engineer / frontend architecture |
 | **Experience** | 13 years in enterprise web applications · 9+ years with Angular |
-| **Domains** | GIS & web mapping, geodesy and cartography, document management, public sector |
-| **Core stack** | Angular, TypeScript, RxJS, Nx, OpenLayers |
+| **Domains** | Advanced UIs for domain experts, GIS & web mapping, document management, public sector |
+| **Core stack** | Angular, TypeScript, RxJS & Signals, Nx, OpenLayers |
 | **Open source** | Maintainer of [ng-openlayers](https://www.npmjs.com/package/ng-openlayers) · merged changes in [bolt.diy](https://github.com/stackblitz-labs/bolt.diy/pull/1322) and [Hindsight](https://github.com/vectorize-io/hindsight/pull/3656) |
 | **Open to** | Senior Angular and frontend-architecture roles |
 | **Contact** | [kamil@furtak.dev](mailto:kamil@furtak.dev) · [LinkedIn](https://linkedin.com/in/kamilfurtak) |
 
-[Portfolio & demos](https://furtak.dev/) · [Experience & skills](https://furtak.dev/hire-me/#experience) · [Engineering decisions & review guide](engineering-notes.md) · [Work with me](https://furtak.dev/hire-me/)
+[Portfolio](https://furtak.dev/) · [ng-openlayers overview](https://furtak.dev/projects/ng-openlayers/) · [Experience & skills](https://furtak.dev/hire-me/#experience) · [Engineering notes](engineering-notes.md)
+
+## ng-openlayers — the flagship [![npm version](https://img.shields.io/npm/v/ng-openlayers.svg)](https://www.npmjs.com/package/ng-openlayers) [![CI](https://github.com/kamilfurtak/ng-openlayers/actions/workflows/ci.yml/badge.svg)](https://github.com/kamilfurtak/ng-openlayers/actions/workflows/ci.yml)
+
+**Maps, the Angular way.** Declarative OpenLayers components for Angular: map, view, layers, sources, styles, controls and interactions composed in templates, with typed inputs and events and full access to the underlying instances.
+
+| | |
+| --- | --- |
+| **27** | interactive examples, each linked to its TypeScript source |
+| **17** | releases across Angular 17–22, one major at a time |
+| **230+** | unit tests and 48 browser scenarios per release |
+| **94%** | line coverage in the library, enforced in CI |
+
+What the library demonstrates beyond maps:
+
+- **Public API design** — a declarative surface over an imperative engine: typed inputs, event outputs, composition through templates and ancestor injection.
+- **Lifecycle ownership** — each component owns the OpenLayers objects it creates and disposes them; consumer-supplied objects stay with the consumer.
+- **Performance by default** — OnPush components, zoneless change detection, pointer and render work outside Angular's zone.
+- **Release engineering** — the built npm tarball is installed into an independent Angular app in CI; browser suites run against the production example site.
+
+[Try the 27 live examples](https://ng-openlayers.furtak.dev/) · [Source & tests](https://github.com/kamilfurtak/ng-openlayers) · [Validation scope](https://github.com/kamilfurtak/ng-openlayers/blob/master/docs/validation.md) · [Project overview](https://furtak.dev/projects/ng-openlayers/)
 
 ## Experience
 
@@ -52,46 +72,19 @@ JavaScript, jQuery, Knockout and Kendo UI on PHP/Symfony and Java backends with 
 | Area | Skills |
 | --- | --- |
 | **Angular & TypeScript** | Angular (signals, RxJS), reusable component APIs and libraries, lazy loading, change-detection strategies, Kendo UI, PrimeNG, Angular Material, Formly |
+| **Advanced interfaces** | Data-heavy workbenches, editors, dialogs and multi-step forms; state ownership, keyboard and accessibility behavior, workflows that survive UI changes |
 | **GIS & web mapping** | OpenLayers; OSM, XYZ, WMS, WMTS, ArcGIS and GeoJSON sources; map projections and coordinate transformation (Proj4); drawing, editing, snapping, selection and measurement |
 | **Architecture & delivery** | Nx monorepos and generators, incremental UI modernization, CI/CD, Git, Docker, Linux, AI-assisted workflows (MCP) |
 | **Testing & quality** | Jasmine, Karma, Cypress, Playwright, axe accessibility checks, package-consumer validation, code review |
 | **Backend & integration** | REST, OpenAPI, Java/Spring, C#/.NET, NestJS/Node.js, PHP/Symfony, SAML, SOAP/WSDL, SQL |
 
-## Selected engineering work
-
-### [ng-openlayers](https://github.com/kamilfurtak/ng-openlayers) [![npm version](https://img.shields.io/npm/v/ng-openlayers.svg)](https://www.npmjs.com/package/ng-openlayers)
-
-**Role: maintainer.** A published Angular library with 27 interactive map examples and 17 releases across Angular 17–22. My work includes component and event lifecycle ownership, projection changes, API compatibility and release validation.
-
-The engineering challenge is connecting imperative OpenLayers objects to Angular's component lifecycle. The repository includes regression tests and an independent consumer that installs the built npm package.
-
-[Try drawing on a map](https://ng-openlayers.furtak.dev/examples/draw-polygon/) · [Source & validation](https://github.com/kamilfurtak/ng-openlayers/blob/master/docs/validation.md) · [npm package](https://www.npmjs.com/package/ng-openlayers)
-
-### [Angular UI modernization](https://furtak.dev/angular-ui-modernization-case-study/)
-
-**Focus: replacing a table renderer while preserving feature behavior.** This Angular workbench keeps its state and form outside the table renderer. Switching between native and PrimeNG tables retains filtering, sorting, selection and draft edits.
-
-Try selecting a case, changing the filter and writing a draft, then switch tables. The source also covers failed requests, retry and unavailable browser storage. Independent sample with fictional data.
-
-[Try the workbench](https://furtak.dev/angular-ui-modernization-case-study/) · [Code & tests](https://github.com/kamilfurtak/kamilfurtak.github.io/tree/main/reference-sources/angular-ui-modernization-case-study/demo) · [Decisions & scope](engineering-notes.md#ui-modernization)
-
-### [Identity integration architecture](https://furtak.dev/epuap-login-gov-integration-portfolio/)
-
-A written case study of browser/API responsibility, generated contracts and failure boundaries around SAML and SOAP/WSDL. It shows how I reason about integration tradeoffs from the frontend side.
-
-[Read the architecture](https://furtak.dev/epuap-login-gov-integration-portfolio/docs/architecture.html)
-
 ## Accepted open-source contributions
-
-Selected changes accepted by other open-source projects:
 
 - **[bolt.diy #1322](https://github.com/stackblitz-labs/bolt.diy/pull/1322)** — added model search and keyboard navigation to the model selector, including focus handling and filtering.
 - **[Hindsight #3656](https://github.com/vectorize-io/hindsight/pull/3656)** — fixed disagreement between schema generation and the batch retain configuration; added regression tests for both conflicting settings.
 
 ## How I work
 
-I keep feature state separate from rendering, define resource ownership, and test failure paths alongside successful flows. I document the limits of each example so reviewers can distinguish demonstrated behavior from a design proposal.
-
-I use AI tools to support implementation; design decisions, source review and verification remain my responsibility.
+I keep feature state separate from rendering, define resource ownership, and test failure paths alongside successful flows. I document the limits of each example so reviewers can distinguish demonstrated behavior from a design proposal. AI tools support my implementation work; design decisions, source review and verification remain mine.
 
 Building a product with a complex Angular frontend or interactive maps? [Email me](mailto:kamil@furtak.dev) or [connect on LinkedIn](https://linkedin.com/in/kamilfurtak).
