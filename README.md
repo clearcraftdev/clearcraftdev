@@ -6,11 +6,19 @@
 
 **Senior Angular Engineer · 13 years in enterprise web development · GIS & interactive maps · UI modernization · Reusable libraries**
 
-I build Angular frontends for complex, domain-heavy products: GIS and map-based applications, document management and public-sector systems. My focus is preserving user workflows during UI changes, designing reusable component APIs, and making state, lifecycle and integration behavior testable. I also maintain [ng-openlayers](https://github.com/kamilfurtak/ng-openlayers), an Angular library for OpenLayers maps.
+I build Angular frontends for complex, domain-heavy products: GIS and map-based applications, document management and public-sector systems. My focus is preserving user workflows during UI changes, designing reusable component APIs, and making state, lifecycle and integration behavior testable. I also maintain [ng-openlayers](https://github.com/kamilfurtak/ng-openlayers), an Angular library for OpenLayers maps with 17 releases across Angular 17–22.
 
-**Core toolkit:** Angular, TypeScript, RxJS, Nx and OpenLayers.
+| At a glance | |
+| --- | --- |
+| **Role** | Senior Angular Engineer / frontend architecture |
+| **Experience** | 13 years in enterprise web applications · 9+ years with Angular |
+| **Domains** | GIS & web mapping, geodesy and cartography, document management, public sector |
+| **Core stack** | Angular, TypeScript, RxJS, Nx, OpenLayers |
+| **Open source** | Maintainer of [ng-openlayers](https://www.npmjs.com/package/ng-openlayers) · merged changes in [bolt.diy](https://github.com/stackblitz-labs/bolt.diy/pull/1322) and [Hindsight](https://github.com/vectorize-io/hindsight/pull/3656) |
+| **Open to** | Senior Angular and frontend-architecture roles |
+| **Contact** | [kamil@furtak.dev](mailto:kamil@furtak.dev) · [LinkedIn](https://linkedin.com/in/kamilfurtak) |
 
-[Portfolio & demos](https://furtak.dev/) · [Engineering decisions & review guide](engineering-notes.md) · [Work with me](https://furtak.dev/hire-me/)
+[Portfolio & demos](https://furtak.dev/) · [Experience & skills](https://furtak.dev/hire-me/#experience) · [Engineering decisions & review guide](engineering-notes.md) · [Work with me](https://furtak.dev/hire-me/)
 
 ## Experience
 
@@ -37,6 +45,8 @@ Reusable components, services, routing and route guards for business and geospat
 
 JavaScript, jQuery, Knockout and Kendo UI on PHP/Symfony and Java backends with REST APIs and Oracle SQL.
 
+**Education & languages:** MSc, AGH University of Science and Technology · postgraduate diploma in Java web development · Polish (native), English (B2, working proficiency).
+
 ## Skills
 
 | Area | Skills |
@@ -49,9 +59,9 @@ JavaScript, jQuery, Knockout and Kendo UI on PHP/Symfony and Java backends with 
 
 ## Selected engineering work
 
-### [ng-openlayers](https://github.com/kamilfurtak/ng-openlayers)
+### [ng-openlayers](https://github.com/kamilfurtak/ng-openlayers) [![npm version](https://img.shields.io/npm/v/ng-openlayers.svg)](https://www.npmjs.com/package/ng-openlayers)
 
-**Role: maintainer.** A published Angular library with 27 interactive map examples. My work includes component and event lifecycle ownership, projection changes, API compatibility and release validation.
+**Role: maintainer.** A published Angular library with 27 interactive map examples and 17 releases across Angular 17–22. My work includes component and event lifecycle ownership, projection changes, API compatibility and release validation.
 
 The engineering challenge is connecting imperative OpenLayers objects to Angular's component lifecycle. The repository includes regression tests and an independent consumer that installs the built npm package.
 
@@ -61,15 +71,13 @@ The engineering challenge is connecting imperative OpenLayers objects to Angular
 
 **Focus: replacing a table renderer while preserving feature behavior.** This Angular workbench keeps its state and form outside the table renderer. Switching between native and PrimeNG tables retains filtering, sorting, selection and draft edits.
 
-Try selecting a case, changing the filter and writing a draft, then switch tables. The source also covers failed requests, retry and unavailable browser storage.
+Try selecting a case, changing the filter and writing a draft, then switch tables. The source also covers failed requests, retry and unavailable browser storage. Independent sample with fictional data.
 
 [Try the workbench](https://furtak.dev/angular-ui-modernization-case-study/) · [Code & tests](https://github.com/kamilfurtak/kamilfurtak.github.io/tree/main/reference-sources/angular-ui-modernization-case-study/demo) · [Decisions & scope](engineering-notes.md#ui-modernization)
 
-This is an independent portfolio sample with fictional data, developed with AI assistance.
-
 ### [Identity integration architecture](https://furtak.dev/epuap-login-gov-integration-portfolio/)
 
-A written case study of browser/API responsibility, generated contracts and failure boundaries around SAML and SOAP/WSDL. It demonstrates how I explain integration tradeoffs from a frontend perspective. The public artifact is a static architecture walkthrough.
+A written case study of browser/API responsibility, generated contracts and failure boundaries around SAML and SOAP/WSDL. It shows how I reason about integration tradeoffs from the frontend side.
 
 [Read the architecture](https://furtak.dev/epuap-login-gov-integration-portfolio/docs/architecture.html)
 
