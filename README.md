@@ -4,16 +4,27 @@
   <img alt="clearcraft: complex Angular applications, built in clear layers. Architecture, shared UI, integrations, tests and delivery." src="assets/profile-banner-dark.svg" width="1440">
 </picture>
 
-**Complex Angular applications, built in clear layers.**
+**Senior Angular Engineer · Frontend Architecture**
 
-I design, build and tidy complex Angular applications: architecture, shared UI, integrations,
-tests and delivery. One product, clear layers.
+I’m a hands-on Angular engineer focused on complex business applications, reusable UI
+and incremental modernization. I design and implement interfaces, application state and
+integrations, with responsibility for code quality and delivery.
 
-| **GeoAtlas** | **Reusable UI** | **How I work** |
-|:--|:--|:--|
-| A map portal built on reusable layers: parcels, planning data, drawing tools and reports on one OpenLayers core. | Twelve packages and a 53-page pattern catalog, shared by every screen of the product. | From a change to a verified release: tests first, a review per unit, CI gates before deployment. |
-| [Case study →](https://clearcraft.dev/work/geoatlas/) | [Explore the catalog →](https://clearcraft.dev/work/reusable-ui/) | [Read the process →](https://clearcraft.dev/how-i-work/) |
+My independent projects apply the same Angular foundations in two different contexts:
 
-**Stack** · Angular · TypeScript · Nx · OpenLayers · Vitest · Playwright
+- **[ClearCraft Workbench](https://clearcraft.dev/work/workbench/)** — visual and AI-assisted form authoring,
+  human-reviewed proposals and document preparation. Purchase Request demonstrates the workflow
+  on shared Angular controls, with local persistence and a model gateway.
+- **[GeoAtlas](https://clearcraft.dev/work/geoatlas/)** — spatial data integrations,
+  attribute tables, editing and map workflows for Poland.
+- **[Shared UI](https://clearcraft.dev/work/reusable-ui/)** — grid, field, button and chat
+  components used by both applications, with product rules kept in their own adapters.
+- **[How I work](https://clearcraft.dev/how-i-work/)** — scoped implementation, code
+  review, automated checks and documented release decisions.
 
-**Contact** · [contact@clearcraft.dev](mailto:contact@clearcraft.dev) · [clearcraft.dev](https://clearcraft.dev/)
+**Stack** · Angular · TypeScript · RxJS · Nx · Vitest · Playwright · OpenLayers
+
+I’m interested in hands-on **Senior Angular Engineer** roles and focused project work.
+[For employers](https://clearcraft.dev/hire-me/#teams) ·
+[Project collaboration](https://clearcraft.dev/hire-me/#projects) ·
+[contact@clearcraft.dev](mailto:contact@clearcraft.dev)
