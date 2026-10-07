@@ -24,6 +24,17 @@ My independent projects apply the same Angular foundations in two different cont
 
 **Stack** · Angular · TypeScript · RxJS · Nx · Vitest · Playwright · OpenLayers
 
+## Selected open-source contributions
+
+Merged contributions to the projects I use:
+
+- **[OpenLayers #17664](https://github.com/openlayers/openlayers/pull/17664)** — fixed incorrect vertex
+  snapping during polygon drawing and added a regression test.
+- **[bolt.diy #1322](https://github.com/stackblitz-labs/bolt.diy/pull/1322)** — added model search,
+  keyboard navigation and focus handling to the model selector.
+- **[Hindsight #3656](https://github.com/vectorize-io/hindsight/pull/3656)** — fixed strict-schema
+  configuration handling in batch retain requests, with regression tests for both flag settings.
+
 I’m interested in hands-on **Senior Angular Engineer** roles and focused project work.
 [For employers](https://clearcraft.dev/hire-me/#teams) ·
 [Project collaboration](https://clearcraft.dev/hire-me/#projects) ·
