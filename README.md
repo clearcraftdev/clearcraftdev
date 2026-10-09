@@ -1,45 +1,43 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile-banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile-banner-light.svg">
-  <img alt="clearcraft: complex Angular applications, built in clear layers. Architecture, shared UI, integrations, tests and delivery." src="assets/profile-banner-dark.svg" width="1440">
+  <img alt="clearcraft: Angular engineering, architecture and delivery." src="assets/profile-banner-dark.svg" width="1440">
 </picture>
 
 **Senior Angular Engineer · Frontend Architecture**
 
-I’m a hands-on Angular engineer focused on complex business applications, reusable UI
-and incremental modernization. I design and implement interfaces, application state and
-integrations, with responsibility for code quality and delivery.
+I build and modernize complex Angular applications, from interface architecture and
+integrations to testing and release. My experience includes business systems,
+shared UI libraries and geospatial applications.
 
-My independent projects turn shared Angular foundations into working products:
+## Shipped product
 
-- **[ClearCraft Geoportal](https://geoportal.clearcraft.dev/)** — a free map of land parcels in Poland,
-  available in the browser and [on the App Store for iPhone](https://apps.apple.com/app/clearcraft-geoportal/id6820518505).
-  Parcel and address search, public map layers, measurements and downloadable reports.
-  Built with Angular, OpenLayers and Capacitor. Android is in preparation.
-- **[ClearCraft Workbench](https://clearcraft.dev/work/workbench/)** — visual and AI-assisted form authoring,
-  human-reviewed proposals and document preparation. Purchase Request demonstrates the workflow
-  on shared Angular controls, with local persistence and a model gateway.
-- **[GeoAtlas](https://clearcraft.dev/work/geoatlas/)** — spatial data integrations,
-  attribute tables, editing and map workflows for Poland.
-- **[Shared UI](https://clearcraft.dev/work/reusable-ui/)** — grid, field, button and chat
-  components used by both applications, with product rules kept in their own adapters.
-- **[How I work](https://clearcraft.dev/how-i-work/)** — scoped implementation, code
-  review, automated checks and documented release decisions.
+**[ClearCraft Geoportal](https://geoportal.clearcraft.dev/)** is my free parcel map for Poland,
+available on the web and [the App Store for iPhone](https://apps.apple.com/app/clearcraft-geoportal/id6820518505).
+It combines parcel and address search, public map layers, measurements and reports.
+I built its Angular interface, OpenLayers integration and Capacitor shell, and took it
+through automated checks, TestFlight and App Store release. Android is in preparation.
 
-**Stack** · Angular · TypeScript · RxJS · Nx · Vitest · Playwright · OpenLayers
+[How I built and shipped it](https://clearcraft.dev/work/geoportal/)
+
+## OpenLayers in Angular and React
+
+I built a gallery of **250 examples with Angular and React implementations**, adapting
+OpenLayers examples with source code and framework comparisons. The demos cover drawing,
+projections, raster data and WebGL, including map previews set in Kraków.
+[Explore the map examples](https://clearcraft.dev/examples/).
+
+**Stack** · Angular · TypeScript · RxJS · Nx · OpenLayers · Capacitor · Vitest · Playwright
 
 ## Selected open-source contributions
 
-Merged contributions to the projects I use:
-
-- **[OpenLayers #17664](https://github.com/openlayers/openlayers/pull/17664)** — fixed incorrect vertex
-  snapping during polygon drawing and added a regression test.
-- **[bolt.diy #1322](https://github.com/stackblitz-labs/bolt.diy/pull/1322)** — added model search,
-  keyboard navigation and focus handling to the model selector.
-- **[Hindsight #3656](https://github.com/vectorize-io/hindsight/pull/3656)** — fixed strict-schema
-  configuration handling in batch retain requests, with regression tests for both flag settings.
+- **[OpenLayers #17664](https://github.com/openlayers/openlayers/pull/17664)** — fixed vertex
+  snapping while drawing polygons, with a regression test. Merged 6 October 2026.
+- **[bolt.diy #1322](https://github.com/stackblitz-labs/bolt.diy/pull/1322)** — model search,
+  keyboard navigation and focus handling. Merged.
+- **[Hindsight #3656](https://github.com/vectorize-io/hindsight/pull/3656)** — configuration
+  handling in batch retain requests, backed by regression tests. Merged.
 
 I’m interested in hands-on **Senior Angular Engineer** roles and focused project work.
-[For employers](https://clearcraft.dev/hire-me/#teams) ·
-[Project collaboration](https://clearcraft.dev/hire-me/#projects) ·
+[Working together](https://clearcraft.dev/hire-me/) ·
 [contact@clearcraft.dev](mailto:contact@clearcraft.dev)
