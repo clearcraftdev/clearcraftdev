@@ -10,8 +10,12 @@ I’m a hands-on Angular engineer focused on complex business applications, reus
 and incremental modernization. I design and implement interfaces, application state and
 integrations, with responsibility for code quality and delivery.
 
-My independent projects apply the same Angular foundations in two different contexts:
+My independent projects turn shared Angular foundations into working products:
 
+- **[ClearCraft Geoportal](https://geoportal.clearcraft.dev/)** — a free map of land parcels in Poland,
+  available in the browser and [on the App Store for iPhone](https://apps.apple.com/app/clearcraft-geoportal/id6820518505).
+  Parcel and address search, public map layers, measurements and downloadable reports.
+  Built with Angular, OpenLayers and Capacitor. Android is in preparation.
 - **[ClearCraft Workbench](https://clearcraft.dev/work/workbench/)** — visual and AI-assisted form authoring,
   human-reviewed proposals and document preparation. Purchase Request demonstrates the workflow
   on shared Angular controls, with local persistence and a model gateway.
